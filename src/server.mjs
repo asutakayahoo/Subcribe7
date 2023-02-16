@@ -322,6 +322,7 @@ app.get('/symbol/:num', function(req, res) {
 
 new SocketClient('reiusdt', 1, 3600000); 
 new SocketClient('renusdt', 2, 3605000); 
+new SocketClient('zilusdt', 3, 3610000); 
 new SocketClient('requsdt', 4, 3615000); 
 new SocketClient('rifusdt', 5, 3620000); 
 new SocketClient('rlcusdt', 6, 3625000); 
@@ -358,5 +359,5 @@ new SocketClient('thetausdt', 36, 3775000);
 new SocketClient('tkousdt', 37, 3780000);
 new SocketClient('tlmusdt', 38, 3785000); 
 new SocketClient('tomousdt', 39, 3790000); 
-
+new SocketClient('zrxusdt', 40, 3795000); 
 
